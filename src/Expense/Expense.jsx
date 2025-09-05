@@ -24,16 +24,16 @@ const filterItem=props.exp.filter((exps)=>{
     />
     {filterItem.map((expe)=>{
          return(
-            <>
+            
   <ExpenseItem key={expe.id} title={expe.title} date={expe.date} price={expe.price}/>
-            </>
+        
          )
     })
 }
   
-    
 
-    </>)
+    </>
+    )
 
 
 }
