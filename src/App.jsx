@@ -6,7 +6,9 @@ function App() {
 
   return (
     <>
+    <h2>Welcome to Note Book:</h2>
     <NoteBook/>
+  
     </>
   )
 }
